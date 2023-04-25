@@ -1,0 +1,9 @@
+# Emmet is a vs code plugin which helps front end developer to write short hand notation in html,css to write clean code.
+# CDN (Content Delivery Network) links are URLs that point to files hosted on a distributed network of servers. CDNs are commonly used to deliver static files such as images, videos, stylesheets, and JavaScript files to users around the world, quickly and reliably.
+
+CDN links are usually provided by third-party service providers, such as Cloudflare, Google, or Amazon. When you use a CDN link to include a file in your web page, the file is served from a server that is geographically closer to the user, reducing the latency and improving the page load time.
+
+#crossorigin is an attribute in HTML that specifies how the browser should handle cross-origin requests for a resource. A cross-origin request is a request for a resource from a different domain, protocol, or port than the one used to serve the current web page.
+#async and defer 
+async fetch->execute script->html Parser
+defer -> fetch->html Parser->execute script
