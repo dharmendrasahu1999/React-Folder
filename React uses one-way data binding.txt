@@ -1,0 +1,9 @@
+React uses one-way data binding
+optional chaining
+shimmer effect ui
+JS expression and statement
+{
+iske andar Js expression chalega , statements nhi
+}
+Learn about Fetch js
+

@@ -1,0 +1,57 @@
+The Most important part in class component is render method.
+render method is mandatory for class based component
+why do we use super(props) in React Class Component
+this.state={
+	count:0,
+count2:0  // react react all state variables in a object in class based component
+}
+
+we donot mutate state directly in class based component instead we use this.setState({
+give modified object
+})
+
+React LifeCycle in class
+First of all constructor is called , then render is called 
+
+ComponentDidMount ---> API calls first render then componentdidMount will call aPI for updatation
+
+React first phase is render phase and second phase is Commit Phase
+
+
+Parent Constructor
+	First Child Constructor
+	First Child Render
+	Second Child Constructor
+	Second Child Constructor
+
+	DOM UPDATED for children---commiting phase
+	first child component did mount
+	second child component did mount
+	Parent component Did mount
+
+
+question --- I can component did Mount async but cant make useeffect a async function
+
+setstate ke baad render-->uske baad componentDidUpdate chalega
+aur componentWIll Unmount will work when the component will unmount from the DOM like while travelling from About to contact Page.
+
+check setInterval and clearInterval ----> this.timer me store karwwya tha...remeber it
+return ()=>{} this fn is called while unmounting in useffect functional component
+
+
+
+hw answer-----
+why do we use super(props) in constructor? in reactJs
+In React, when creating a class component, it is often necessary to pass props from a parent component to a child component. In order to access these props in the child component's constructor, you need to call the parent constructor using the super(props) method.
+
+The super() method is used to call the constructor of the parent class, which is necessary when creating a subclass. In React, all class components are subclasses of the React.Component class, which is why you need to call super(props) in order to properly initialize the component's state and any other properties that are inherited from the parent class.
+
+Passing props as an argument to super() ensures that the this.props object is properly initialized in the child component's constructor, allowing you to access the props that were passed down from the parent component. Without calling super(props) in the constructor, this.props would be undefined and any attempt to access it would result in an error.
+
+Why can't we have the callback function of useEffect async? in ReactJs
+
+In React, the useEffect hook is used to perform side effects, such as fetching data from an API or updating the DOM, in a functional component. The callback function passed to useEffect is executed after every render cycle, and it can be asynchronous.
+
+However, React does not allow the callback function of useEffect to be declared as async. This is because the async keyword automatically returns a Promise, and React expects the callback function of useEffect to either return nothing or a cleanup function.
+
+If you declare the callback function of useEffect as async, it will return a Promise instead of a cleanup function. This can cause unexpected behavior, such as memory leaks or multiple requests being sent to an API.

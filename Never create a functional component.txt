@@ -1,0 +1,18 @@
+Never create a functional component inside another
+never write useState inside a if statement
+React uses Usestate hook to create local state variable
+Why CDN a great place to host images
+formik npm package
+react-router-dom
+
+createBrowserRouter
+RouterProvider
+useRouterError
+
+SPA Single Page Application
+Two types of Routing : Client Side(but we will use this for SPA) and Server Side(Earlier it was used for routing and it reloads)
+
+All the children will go to outlet
+Object.values()
+https://reactrouter.com/en/main/routers/create-browser-router
+// "https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.520327964979266&lng=73.92529203242901&page_type=DESKTOP_WEB_LISTING"

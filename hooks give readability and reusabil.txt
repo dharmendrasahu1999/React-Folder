@@ -1,0 +1,14 @@
+hooks give readability and reusability and Modularity and testable
+at the end of the day hook is Js function that extracts a JS piece or logic piece of code
+and retunn according to it.
+Window event online
+custom hooks built by us
+Learn to build your own library.
+
+reasearch on const [getlocalvariables, setlocalvariables]=useLocalStorage();//check it how can be built
+chunking-->code splitting-->dynamic Bundling-->Lazy Loading--->Dynamic Import--->On demand Loading --- All are same 
+
+ready about lazy--> its a promise yrr
+fallback in Suspense ---> it will render  shimmer untill we get all chunk which we want to render
+
+Never lazy load any component inside another component

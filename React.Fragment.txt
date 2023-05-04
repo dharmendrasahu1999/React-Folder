@@ -1,0 +1,11 @@
+React.Fragment
+JSX will have only one parent
+config driven UI
+optional chaining ?.
+eS6 spread operator
+difference between map and forEach
+The reprsentation of Dom with us is Virtual DOM
+Reconcilanation algorithm has diff algorithm
+React Fibre
+Why don't we use index as a key?
+no key <<<<<<<<<index key <<unique key

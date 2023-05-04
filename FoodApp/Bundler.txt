@@ -1,0 +1,27 @@
+package-lock-json: maintains the exact version of the dependency, never ever put in .gitignore files other wise it will not work on procution phase
+I will never touch nodemodules
+Created a server
+HMR : Hot Module Replacement
+File Watcher Algorithm-c++ me written he
+BUNDLING
+MINIFY
+Cleaning our Code
+Dev and Production Build
+Super Fast Build Algorithm
+Image Optimization
+Caching while development
+Compression
+Compatible With older versions of Browser
+HTTPS on dev npx parcel index.html --https
+Port Number manages
+we should .parcel-cache in gitignore files
+Consistent Hashing Algorithm
+Zero Config
+Transitive Dependencies
+
+BrowserList
+What are the different types of script
+Tree shaking??
+Ans:  Tree shaking is a technique used by modern JavaScript module bundlers, like Webpack and Rollup, to remove dead or unused code from a project. It's called "tree shaking" because the process is similar to shaking a tree to remove dead leaves or branches.
+
+

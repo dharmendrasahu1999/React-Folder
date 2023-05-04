@@ -1,0 +1,12 @@
+"main": "App.js",
+Babel
+babel-plugin-transform-remove-console
+what is the difference between html and jsx
+JSX=>React.createElement=>object=>Html(DOm)
+Everything in React is Component
+React Component
+->Functional Component -NEW -- Most of the time
+->Class Component -OLD -- will learn this also
+fUNCTIONAL component starts with a capital letter
+Difference between react Elemnt and React component
+Component inside a component is component composition

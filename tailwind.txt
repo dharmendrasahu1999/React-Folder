@@ -1,0 +1,8 @@
+css on the go (int hr same file)
+reusability
+less bundle size
+Flexible Ui 
+Postcss--read about it
+
+for exact values in tailwind css use [] notation and put dynamic value to it
+no dplicat css
