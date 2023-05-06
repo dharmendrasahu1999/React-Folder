@@ -35,7 +35,7 @@ const RestaurantMenu = () => {
         {console.log(
           restaurant[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards.slice(1)
         )}
-        <ul>
+        <ul data-testid="menu">
           {restaurant[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards
             .slice(1)
             .map((items, index) => {
@@ -45,7 +45,9 @@ const RestaurantMenu = () => {
                     return (
                       <div key={item?.card?.info?.id} className="flex">
                         {<h2>{item?.card?.info?.name}</h2>}-
-                        <button className="p-1 bg-green-50 cursor-pointer" onClick={()=>addFoodItem(item?.card?.info)} >
+                        <button 
+                        data-testid="addbtn"
+                        className="p-1 bg-green-50 cursor-pointer" onClick={()=>addFoodItem(item?.card?.info)} >
                           Add Item</button>
                       </div>
                     );
